@@ -1,0 +1,15 @@
+.navbar, .footer {
+    background-color: #294B29;
+}
+
+.jumbotron, .project {
+    background-color: #DBE7C9;
+}
+
+.jumbotron {
+    padding-top: 10rem;
+}
+
+/* section {
+    padding-top: 6rem;
+} */
