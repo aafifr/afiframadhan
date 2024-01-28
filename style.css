@@ -1,3 +1,41 @@
+/* body {
+    transition: background-color 0.3s;
+}
+
+body.siang {
+    background-color: white;
+    color: black;
+}
+
+body.malam {
+    background-color: #294B29;
+    color: white;
+}
+
+.toggle {
+    width: 60px;
+    height: 30px;
+    background-color: #bdc3c7;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle-ball {
+    width: 28px;
+    height: 28px;
+    background-color: #DBE7C9;
+    border-radius: 50px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    transition: left 0.3s;
+}
+
+body.malam .toggle-ball {
+    left: 31px;
+} */
+
 .navbar, .footer {
     background-color: #294B29;
 }
@@ -12,6 +50,7 @@
 
 .card {
     transition: .3s;
+    overflow: hidden;
 }
 .card:hover {
     /* transform: scale(1.1); */
@@ -24,4 +63,14 @@
 }
 .am:hover {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.card img {
+    object-fit: cover;
+    transition: transform 0.8s;
+    height: 100%;
+}
+
+.card img:hover {
+    transform: scale(1.1);
 }
